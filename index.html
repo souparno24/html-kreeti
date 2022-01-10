@@ -7,11 +7,58 @@
     <title>Home</title>
 </head>
 <body>
-   <h1>Home page</h1> 
-   <a href="about.html">Go to about page</a>
-   
-   <p><a href="mailto:someone@example.com?subject=testing mail to tag&bcc=anonymous@example.com">Send email</a></p>
-   <p><a href="tel:+4733378901">+47 333 78 901</a></p>
+   <h1>Enter Details</h1>
+   <form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="birthday">DOB:</label><br>
+    <input type="date" id="birthday" name="birthday"><br>
+
+
+
+    <br><label for="state">State:</label>
+
+<select name="state" id="state">
+  <option value="wb">West Bengal</option>
+  <option value="maha">Maharashtra</option>
+  <option value="karnataka">Karnataka</option>
+  <option value="ori">Orissa</option>
+</select>
+    <p>Select Blood Group</p>
+    
+    <input type="radio" id="b" name="blood_group" value="B+">
+    <label for="b">B+</label><br>
+    <input type="radio" id="a" name="blood_group" value="A+">
+    <label for="a">A+</label><br>
+    <input type="radio" id="o+" name="blood_group" value="O+">
+    <label for="o+">O+</label><br>
+    <input type="radio" id="b-" name="blood_group" value="B-">
+    <label for="b-">B-</label><br>
+    <input type="radio" id="a-" name="blood_group" value="A-">
+    <label for="a-">A-</label><br>
+    <input type="radio" id="o-" name="blood_group" value="O-">
+    <label for="o-">O-</label><br>
+
+    <p>Your Hobbies</p>
+    <input type="checkbox" id="1" name="1" value="games">
+    <label for="1"> playing video games</label><br>
+    <input type="checkbox" id="2" name="vehicle2" value="web">
+    <label for="2"> binge watching webseries</label><br>
+    <input type="checkbox" id="3" name="3" value="ins">
+    <label for="vehicle3">playing instrument</label><br>
+    <input type="checkbox" id="4" name="4" value="books">
+    <label for="4"> reading books</label><br>
+
+    <br><label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+
+    <br><label for="appt">Select a time:</label>
+    <input type="time" id="appt" name="appt"><br>
+  </form>
 
 </body>
 </html>
