@@ -1,64 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    .container {
+  position: relative;
+}
+       .para{
+      position: relative;
+      left: 0px;
+      top: 0px;
+      color: azure;
+    }
+    img {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;}
+ 
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 <body>
-   <h1>Enter Details</h1>
-   <form>
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <label for="pwd">Password:</label><br>
-    <input type="password" id="pwd" name="pwd"><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <label for="birthday">DOB:</label><br>
-    <input type="date" id="birthday" name="birthday"><br>
-
-
-
-    <br><label for="state">State:</label>
-
-<select name="state" id="state">
-  <option value="wb">West Bengal</option>
-  <option value="maha">Maharashtra</option>
-  <option value="karnataka">Karnataka</option>
-  <option value="ori">Orissa</option>
-</select>
-    <p>Select Blood Group</p>
-    
-    <input type="radio" id="b" name="blood_group" value="B+">
-    <label for="b">B+</label><br>
-    <input type="radio" id="a" name="blood_group" value="A+">
-    <label for="a">A+</label><br>
-    <input type="radio" id="o+" name="blood_group" value="O+">
-    <label for="o+">O+</label><br>
-    <input type="radio" id="b-" name="blood_group" value="B-">
-    <label for="b-">B-</label><br>
-    <input type="radio" id="a-" name="blood_group" value="A-">
-    <label for="a-">A-</label><br>
-    <input type="radio" id="o-" name="blood_group" value="O-">
-    <label for="o-">O-</label><br>
-
-    <p>Your Hobbies</p>
-    <input type="checkbox" id="1" name="1" value="games">
-    <label for="1"> playing video games</label><br>
-    <input type="checkbox" id="2" name="vehicle2" value="web">
-    <label for="2"> binge watching webseries</label><br>
-    <input type="checkbox" id="3" name="3" value="ins">
-    <label for="vehicle3">playing instrument</label><br>
-    <input type="checkbox" id="4" name="4" value="books">
-    <label for="4"> reading books</label><br>
-
-    <br><label for="favcolor">Select your favorite color:</label>
-    <input type="color" id="favcolor" name="favcolor"><br>
-
-    <br><label for="appt">Select a time:</label>
-    <input type="time" id="appt" name="appt"><br>
-  </form>
-
+  <p>Z index and Position</p>
+  <div class="container">
+    <img src="tree.jpeg">
+    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam sint porro voluptate corrupti nesciunt quos laborum earum, tempore necessitatibus ratione, eligendi ullam vero beatae voluptates quam impedit numquam. Ratione, debitis!</p>
+  </div>
+ 
 </body>
 </html>
