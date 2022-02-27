@@ -2,32 +2,106 @@
 <html lang="en">
 <head>
   <style>
-    .container {
-  position: relative;
-}
-       .para{
-      position: relative;
-      left: 0px;
-      top: 0px;
-      color: azure;
-    }
-    img {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      z-index: -1;}
+
+.container
+ {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
  
-    </style>
+}
+.m{
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  width: 100%;
+height: 500px; 
+margin: 10px;
+
+
+}
+.c1 {
+  background-color: red;
+  width: 100%;
+  height:100px;
+  margin: 10px;
+ 
+}
+.c{
+  display: flex;
+  flex-direction: column;
+  background-color:whitesmoke;
+  width:75%;
+  margin-top: 10px;
+  
+}
+.side{
+  background-color: red;
+  width:25%;
+  margin: 10px;
+ 
+  height: 500px;
+ 
+}
+.s{
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  
+  height: 200px;
+  margin: 10px;
+  
+ 
+
+}
+.mc{
+  background-color: red;
+  height: 300px;
+  margin-top: 10px;
+
+}
+.l{
+
+  background-color: red;
+  width: 33.33%;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+}
+
+
+
+
+
+
+
+
+  </style>
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 <body>
-  <p>Z index and Position</p>
   <div class="container">
-    <img src="tree.jpeg">
-    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam sint porro voluptate corrupti nesciunt quos laborum earum, tempore necessitatibus ratione, eligendi ullam vero beatae voluptates quam impedit numquam. Ratione, debitis!</p>
+    <div class="c1"> header</div>
+    <div class="m">
+      <div class="c">
+        <div class="s">
+          <div class="l">smallbox 1</div>
+          <div class="l">smallbox 2</div>
+          <div class="l">smallbox 3</div>
+        </div>
+        <div class="mc">main content</div>
+      </div>
+      <div class="side">sidebar</div>
+
+
+
+    </div>
+    <div class="c1"> footer</div>
+
   </div>
  
 </body>
